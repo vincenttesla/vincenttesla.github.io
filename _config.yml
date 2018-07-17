@@ -1,7 +1,7 @@
 # Site settings 配置站点
-title: 'nico's blog'
-description: ''
-keyword: 'nico,nico's blog,前端,javascript,软件测试,随笔，故事'
+title: 'nico的博客'
+description: 'welcome!'
+keyword: 'nico,nico的博客,前端,javascript,软件测试,随笔,故事'
 url: 'http://nico.maxwellchain.com' # your host
 
 # if you don't need baseurl, you should leave this value blank.
@@ -14,12 +14,12 @@ nav:
 
 # Footer
 footer:
-  since: 2017
+  since: 2018
 
 # Author 配置博主信息
 author: 'nico'
 nickname: '东帝地'
-bio: '前端开发者，UCASer，发现分享创造美'
+bio: 'UCASer，热衷记录'
 avatar: '/assets/img/nico.png'
 
 # Search
@@ -41,7 +41,7 @@ social-share: true
 social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
 
 # theme color 主题皮肤
-theme-color: 'default'  # pink or default
+theme-color: 'pink'  # pink or default
 
 # Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
 postPatterns: 'circuitBoard'
@@ -50,6 +50,7 @@ postPatterns: 'circuitBoard'
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   github: '//github.com/vincenttesla'
+  email: 'rundong.lee@gmail.com'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
