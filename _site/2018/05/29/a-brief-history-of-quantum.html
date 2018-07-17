@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>本质的战争 - nico的博客</title>
+    <meta name="author"  content="nico">
+    <meta name="description" content="本质的战争">
+    <meta name="keywords"  content="读书笔记, 原创, 量子物理">
+    <!-- Open Graph -->
+    <meta property="og:title" content="本质的战争 - nico的博客">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://localhost:4000/2018/05/29/a-brief-history-of-quantum.html">
+    <meta property="og:description" content="welcome!">
+    <meta property="og:site_name" content="nico的博客">
+    <link rel="stylesheet" href="//cdn.staticfile.org/normalize/6.0.0/normalize.min.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_roc50gemkxpw4s4i.css">
+    <link rel="stylesheet" href="/assets/css/github-markdown.css">
+    <link rel="stylesheet" href="/assets/css/prism.css">
+    <link rel="stylesheet" href="/assets/css/share.min.css">
+    <link rel="stylesheet" href="/assets/css/app.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+	
+	<!--
+Author: Ray-Eldath
+refer to:
+ - http://docs.mathjax.org/en/latest/options/index.html
+-->
+
+	<script type="text/javascript" async src="https://cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+	
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+		jax: ["input/TeX", "output/HTML-CSS"],
+		tex2jax: {
+			inlineMath: [ ["$", "$"] ],
+			displayMath: [ ["$$", "$$"] ],
+			skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+		},
+		"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+      });
+    </script>
+
+	
+    <!--
+Author: Ray-Eldath
+-->
+<style>
+    .markdown-body .anchor{
+        float: left;
+        margin-top: -8px;
+        margin-left: -20px;
+        padding-right: 4px;
+        line-height: 1;
+        opacity: 0;
+    }
+    
+    .markdown-body .anchor .anchor-icon{
+        font-size: 15px
+    }
+</style>
+<script>
+    $(document).ready(function() {
+        let nodes = document.querySelector(".markdown-body").querySelectorAll("h1,h2,h3")
+        for(let node of nodes) {
+            var anchor = document.createElement("a")
+            var anchorIcon = document.createElement("i")
+            anchorIcon.setAttribute("class", "fa fa-anchor fa-lg anchor-icon")
+            anchorIcon.setAttribute("aria-hidden", true)
+            anchor.setAttribute("class", "anchor")
+            anchor.setAttribute("href", "#" + node.getAttribute("id"))
+            
+            anchor.onmouseover = function() {
+                this.style.opacity = "0.4"
+            }
+            
+            anchor.onmouseout = function() {
+                this.style.opacity = "0"
+            }
+            
+            anchor.appendChild(anchorIcon)
+            node.appendChild(anchor)
+        }
+    })
+</script>
+</head>
+
+
+<body>
+  <!--[if lt IE 10]>
+<div class="alert-danger" role="alert">你的浏览器实在太太太旧了，放学别走，升级完浏览器再说！<a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div>
+<![endif]-->
+  <input id="nm-switch" type="hidden" value="true"> <header class="g-header">
+    <div class="g-logo">
+      <a href="/"></a>
+    </div>
+    <i id="menu-toggle" class="iconfont icon-menu"></i>
+    <nav class="g-nav">
+        <ul>
+            
+            <li><a href="/">home</a></li>
+            
+            <li><a href="/tags.html">tags</a></li>
+            
+        </ul>
+    </nav>
+</header>
+
+
+  <header class="g-banner post-header post-pattern-circuitBoard bgcolor-pink post-no-cover" data-theme="pink">
+    <div class="post-wrapper">
+      <div class="post-tags">
+        
+          
+            <a href="http://localhost:4000/tags#%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" class="post-tag">读书笔记</a>
+          
+            <a href="http://localhost:4000/tags#%E5%8E%9F%E5%88%9B" class="post-tag">原创</a>
+          
+            <a href="http://localhost:4000/tags#%E9%87%8F%E5%AD%90%E7%89%A9%E7%90%86" class="post-tag">量子物理</a>
+          
+        
+      </div>
+      <h1>本质的战争</h1>
+      <div class="post-meta">
+        <span class="post-meta-item"><i class="iconfont icon-author"></i><a href="http://localhost:4000" target="_blank" rel="author">nico</a></></span>
+        <time class="post-meta-item" datetime="18-05-29"><i class="iconfont icon-date"></i>29 May 2018</time>
+      </div>
+    </div>
+    
+  </header>
+
+  <div class="post-content visible">
+    
+    <h2 class="post-subtitle">《量子物理史话》读后</h2>
+    
+
+    <article class="markdown-body">
+      <h1 id="本质的战争-量子物理史话读后">本质的战争 《量子物理史话》读后</h1>
+
+<p>摘要 光究竟是什么？这个人类认识中最古老的事物，却从来没有让人类真正“看清”它。从17世纪到20世纪，科学家们关于光本质的探索与争论无休无止。本文通过对这四个世纪关于人类的光探索史实分为“三次波粒战争”进行了简要叙述。作者从人类对光的原始认识讲起，引发猜想，再从猜想谈到17世纪粒子说与波动说的两个阵营。随后作者较详细的阐述了波动说的反击，接着作者以“万物统一”的思想引出第三次战争，谈了量子的诞生、光电效应的解释、德布罗意波，最终这场“战争”以光的波粒二象性结束。在整个叙述中作者注重从新的认识出发引发猜想，随后叙述猜想或理论提出后的实验，证明新理论的正确性。在整个叙述中，作者表现了一种实践求真知的态度，光的本质即为观察到的结果，脱离观察的本质是毫无意义的。</p>
+
+<p>这学期我选修了一名叫做“创意写作”的课程，在第一节课老师提到了关于提升写作真实感的技巧：不要仅限于描写你看到的东西，人有五感，在写作中善用其他感觉能使你的写作更加真实生动。这的确是一个很好的技巧，在使用这个技巧后我发现我写出来的东西变得不再普通了。这件事使我不禁思索，为什么？为什么加入听觉、嗅觉以后文章变得不那么寻常了？我想问题的反面便是答案：仅描写看到的事物比较寻常，或者换句话说，“看”是人类认识世界最主要的方式。无独有偶，这个答案同样回答了这学期我选修的另一门课上老师提出的问题：为什么虚拟现实技术的基础是要满足视觉上的真实？</p>
+
+<p>在那门虚拟现实课上老师还指出，视觉是五感里最高级的感觉，是视觉细胞对光的“特殊触觉”。等等，似乎有个一直被我忽略的东西，它看起来并没有表面那么简单。既然视觉是视觉细胞对光的“触觉”，那“光”是什么？在我打字的时候我的手指能明显的感受到键盘的硬度，为什么我能对键盘产生触感？因为键盘是物质，如果它是真空我就摸不到它（这里的真空是指没有任何物质包括空气的空间，自然我可以“摸”到空气，比如向手心吹一口气）。如果我眼睛里的视觉细胞能对光产生触感，莫非光是物质？光是物质？！！那太阳每时每刻在向地球发射数目巨大的“物质”，为什么地球没有被击碎也没有将“光物质”积累成山？</p>
+
+<p>每当想起光，我都会产生最原始的困惑，“光是什么？”这个问题就像“宇宙是什么？”、“我们为什么活着？”这类的问题一样，让人无奈、失落的同时又让人欲罢不能。光是每个人见得最多的东西，自古以来，它理所当然地被认为是宇宙最原始的事物之一。在远古神话中，“一道亮光”劈开了混沌和宇宙，于是世界开始运转。可是时至今日，科学依然不能对“光是什么？”这个问题给出一个答复。但正是在人类对光的本质的探索中，科学的大厦建立了起来。在古希腊时代，人们猜想光是一种从我们眼睛里发出的东西，是一束非常小的粒子流，当它到达某个事物时，事物就被我们看到了。这个解释并不怎么高明，它无法解释为什么我们在黑夜里看不见东西，可是这样的误解直到公元1000年左右才被一位伊斯兰科学家阿尔·哈桑纠正：我们能看到物体，是因为光从物体上反射进我们的眼睛里。中世纪后，随着人类对声音的认识，波动现象被深入的了解与研究，人们怀疑光可能也是一种波。17世纪初，意大利的格里马第的实验发现光穿过两个小孔后在屏幕上投出了明暗相间的条纹，于是他提出：光可能是一种类似水波的波动。关于光是粒子还是波的争论，贯穿了整个人类的物理学史，这期间的曲折可以总结成三场“战争”来阐述。</p>
+
+<h4 id="第一次波粒战争">第一次波粒战争</h4>
+<p>17世纪中期，罗伯特·虎克重复了格里马第的实验，他判断光可能是一种快速的脉冲，并于1665年的著作《显微术》中明确的支持光是一种波。同时代的数学家惠更斯继承了虎克的思想，并成功证明和推导出了光的折射和反射定律，随后他的波动理论被数个实验成功证明。哦，原来光是一种波呀，可是真的是这样吗？1672年，一位叫做艾萨克·牛顿的年轻人提出了自己的看法，他认为光是一种粒子。1704年，牛顿出版了《光学》，在这本书里牛顿详尽的从粒子的角度解释了光实验中发现的种种现象，比如在光的色散实验中，牛顿指出光的复合与分解其实是不同颜色微粒的混合与分开。同时在这本书里牛顿驳斥了光的波动理论，并提出了许多波动理论无法解释的问题。那时的牛顿，已经是出版了《自然哲学的数学原理》的牛顿，已经是发明了微积分的牛顿，他对于光的粒子假说在当时显得不容置疑。在微粒与波动的第一次交锋中，以牛顿为首的微粒说战胜了波动说。</p>
+
+<h4 id="第二次波粒战争">第二次波粒战争</h4>
+<p>叛逆总来自于年轻人，在牛顿的粒子假说统治近一个世纪后，一位来自英国普通教徒家庭的男孩托马斯·杨做了一个惊人的实验：光的双缝干涉实验。在这个实验中，一束光线通过两条缝后在后面的投影屏中出现了明暗相间的条纹。杨发现如果光是一种粒子，那这个现象很难解释，可如果假设光是一种波，那这个现象便很好解释：当两条缝距离屏幕某点的距离是波长的整数倍是，波峰遇到波峰，两条波叠加，故该点变得很亮；当两条缝距离屏幕某点的距离产生半个波长的差时，波峰遇到波谷，两条波抵消，故该点变得很暗。1807年，托马斯·杨发表了他在光学方面的工作，随后法国工程师菲涅尔发表了一篇论文，在论文里他采用了光是一种波动的观点，并用严密的数学推理解释的光的衍射问题。审理菲涅尔论文的数学家泊松发现当把这个理论应用于圆盘衍射时，阴影中间会出现亮斑，起初泊松觉得这样的猜想很荒谬，甚至差点使菲涅尔的论文夭折，可是最终他还是谨慎的进行了实验检验，结果真有一个亮斑如奇迹般的出现在圆盘阴影中央，位置、亮度与理论复合的相当完美，后来这个现象被其名为“泊松亮斑”。1850年六月傅科向法国科学院提交了他关于光速测量实验的报告，在准确的得出真空中的光速后，他测量出水中的光速只用真空中的3/4，可是当时的粒子论推出了不一样的结论：光在水中的速度大于真空中的速度。傅科的实验结果在当时直接宣判了光粒子论的“死刑”。1887年，赫兹通过实验证实了麦克斯韦的电磁理论，并测量了电磁波的波长，他将测得的波长乘以电路的频率，计算出电磁波的前进速度，这个数值十分的接近光速，随后电磁波的反射、衍射和干涉实验很快做了出来，这些实验过都表明了电磁波与光的一致性，麦克斯韦的惊人预言得到了证实：原来我们平常见到的光就是电磁波的一种。在第二次波粒战争中，波动军异军突起，在赫兹的实验之后波动说突然发现，它已经不仅仅是光领域的统治者，而是整个电磁王国的统治者。原来，光是一种波？</p>
+
+<h4 id="两朵乌云">两朵乌云</h4>
+<p>19世纪末，那是一个辉煌的时代，力、热、光、电、磁……人类所知道的一切物理现象，几乎都可以从现成的理论中得到解释，物理学仿佛已经征服了世界。然而，事物总是不完美的，在近乎完美的经典物理体系下，依然出现了缺口。1900年，开尔文发表了著名的演讲《在热和光动力理论上空的19世纪乌云》，在这篇演讲中他提到了两个与当时物理理论难以解释的两个实验：迈克尔逊-莫雷实验和黑体辐射实验。在迈克尔逊-莫雷实验中，实验者认为如果光是一种波，那必定存在着一种使光波可以传输的介质，于是实验者设计了一个巧妙的实验来测量这种介质和光的相对速度，结果实验结果表明光并没有相对这种介质的速度。这样的实验结果虽然对光的波动学说打击不小，但一些科学家还是提出了一些假设解释了这个现象，好想使人们“摆脱了困境”，而真正对光本质认识的大变革竟然来自于一个热力学实验——黑体辐射实验。黑体辐射实验是为了搞清楚物体的辐射与温度的关系，于是有两拨物理学家提出了自己的黑体辐射公式，维恩从经典的热力学思想出发提出了维恩公式，维恩公式在短波长的辐射实验中有着很精确的表现，但在长波方面却误差很大。随后英国物理学家瑞利从麦克斯韦的电磁理论出发，推导出了瑞利-金斯公式，这个公式在的长波长的辐射实验中十分精确，然而在短波长的实验中却有着很大的误差。这时最尴尬的事情发生了，两个公式并不能互相推导，但两个公式却都没有什么大问题（两者都由经典的物理理论推导得出，在各自的波长领域都准确的预测了实验结果）。一时间，黑体辐射实验在人类的物理学世界中引发了轩然大波，物理学家不得不面对一个事实：当下的物理学体系中看似完美的两个体系：电磁学体系和热力学体系产生了尖锐的冲突。在这之前，许多物理学家坚信世间的种种物理现象最终都是可以合为一统的，电与磁的统一、在力学的帮助下产生的热力学等等，都体现着统一的终极命运，然而黑体辐射实验却将人类最引以为豪的两大体系拉到了180度的对立面。山雨欲来风满楼，在黑体辐射的“怒号”下，第三次波粒战争打响了。</p>
+
+<h4 id="第三次波粒战争">第三次波粒战争</h4>
+<p>作为一位自然科学的求知者，统一的思想深入我的内心，我经常会发现自己曾了解的某个理论或着规律在另一个毫不相关的领域上发生了，同时我也经常会将自己擅长领域的知识应用在其他领域，而且往往是一个不算失败的应用。比如：将计算机软件开发中的黑盒思想应用在商业谈判中、将一首音乐的旋律应用在一个故事情节的设计上、将一道数学证明题应用在理解一个杀人犯的犯罪逻辑上等等。物理学中这样的事情也数不胜数：库仑定律简直是牛顿万有引力定律的翻版、电子环绕模型看起来就像一个太阳系……在接下来“战争”的开端，导火索人物正是那种“终极统一”的命运驱使下，本无心插柳的他却开创了一番掘地寻天的事业。</p>
+
+<h5 id="收之桑榆">收之桑榆</h5>
+<p>1900年，普朗克在黑体辐射问题的研究上已经花费了6年时光，这6年是而立之年的普朗克最“徒劳无功”的6年，或者说是积攒运气的6年，这年10月一天的中午，普朗克无意中“凑”出来了一个公式，他惊奇的发现这个公式可能正好符合要求，10月19日他将这个公式公布于众，结果大家发现他的公式无论在短波还是长波下与真实的实验数据符合的非常精确。黑体辐射问题似乎就这样被无意中解决了，这个公式管用，但是为什么呢？它的理论依据是什么？它说明了什么？当时却没有人能解释。伴随着怀疑、失望与焦虑，普朗克发现为了使新的公式可解释必须引入一个假设：假设能量在发射和吸收的时候，不是连续不断的，而是分成一份一份的。这个“一份一份”的能量被普朗克称作“量子”，接着普朗克根据新的公式推导出了一个量子的大小：E=hv。5年后，爱因斯坦运用普朗克的理论成功的解释了光电效应，在爱因斯坦的解释中一束光被描述成了由数目有限、局限于空间的“光子”组成的集合体。随后1915年密立根的光电效应实验和1923年康普顿的X射线实验都进一步的证明了爱因斯坦假说的正确性。那么，光是粒子？</p>
+<h5 id="殊途同归">殊途同归</h5>
+<p>20世纪初，经典物理学大厦已建立完整，看似只剩下添砖加瓦零散活的物理学却出现了井喷效应。原子的发现、电子的发现、相对论等等一个个新的发现接踵而至。法国人德布罗意在他的博士论文中将相对论与量子物理进行了结合，提出来一个惊世骇俗的观点：电子在运动时，本身总伴随着一个波。这种波后来被称为“德布罗意波”。1927年，美国人戴维逊和革末在一次“意外”实验中发现当用电子去射击一个镍块时，被镍块散射的电子在探测器中发生了衍射现象，并且其行为与X射线的衍射一模一样，这个实验结果体现了电子的波动性质。紧接着1927年J.J.汤姆逊通过实验进一步证明了电子的波动性。微粒具有波动性，所以光子是一种波？等等，似乎绕来绕去，我们自己得出了一个自相矛盾的结论，光子是波，光子是爱因斯坦描述的组成光纤的微粒，微粒竟然是波？万万没想到，波动说和粒子说作战了3个世纪，最后却以这样的结局收场：打来打去，原来双方是一伙人。</p>
+
+<p>在今后的十年，科学家对微粒是一种波的说法争执不一，他们坚信，物理学应该简单明了，世间万物应该是真实确定并客观存在的。就在物理学家们无为在歧路之时，量子论的奠基人之一尼尔斯·波尔提出了他的解释：毫无疑问，一个电子必须由微粒和波两种角度去做出诠释，任何单方面的描述都是不完全的。如果一直在专注于电子的“真身”？或者电子的原型？电子的本来面目？这些脱离的观察的本质都是毫无意义的，事实上我们也不关注大自然“本来”是什么，我们只关心我们能够观测到的大自然是什么。电子又是一个粒子又是一个波，但每次我们观察它，它只展现出其中的一面，这里的关键是我们如何观察它，而不是它“究竟”是什么。波和粒子在同一时刻是互斥的，但它们却在更高的层次统一在一起，作为电子的两面被纳入一个整体概念中。这就是著名的“互补原理”。第三次波粒战争便以这样的方式收场了，而光的这种奇妙结合，就是大名鼎鼎的“波粒二象性”。</p>
+
+
+    </article>
+
+    
+    <div class="social-share-wrapper">
+      <div class="social-share"></div>
+    </div>
+    
+  </div>
+
+  <section class="author-detail">
+    <section class="post-footer-item author-card">
+      <div class="avatar">
+        <img src="http://localhost:4000/assets/img/nico.png" alt="">
+      </div>
+      <div class="author-name" rel="author">nico</div>
+      <div class="bio">
+        <p>UCASer，热衷记录</p>
+      </div>
+      
+      <ul class="sns-links">
+        
+        <li>
+          <a href="//github.com/vincenttesla" target="_blank">
+                    <i class="iconfont icon-github"></i>
+                </a>
+        </li>
+        
+        <li>
+          <a href="rundong.lee@gmail.com" target="_blank">
+                    <i class="iconfont icon-email"></i>
+                </a>
+        </li>
+        
+      </ul>
+      
+    </section>
+    <section class="post-footer-item read-next">
+      
+
+      
+      <div class="read-next-item">
+        <a href="/2018/01/19/history-explore.html" class="read-next-link"></a>
+          <section>
+            <span>我认识的文昭甄皇后</span>
+            <p>我认识的文昭甄皇后  先从我对甄皇后的第一印象说起。第一次知道甄皇后是在我高中，那时“三国杀”这个游戏在我们学生中...</p>
+          </section>
+          
+          <div class="filter"></div>
+          <img src="" alt="">
+          
+      </div>
+      
+    </section>
+    <section class="post-footer-item comment">
+      <div id="disqus_thread"></div>
+    </section>
+  </section>
+
+  <footer class="g-footer">
+  <section>nico的博客 ©
+  
+  
+  2018
+  </section>
+  <section>Powered by <a href="//jekyllrb.com">Jekyll</a> | <a href="https://github.com/kaeyleo/jekyll-theme-H2O">Theme H2O</a></section>
+</footer>
+
+
+  <script src="/assets/js/social-share.min.js"></script>
+  <script>
+    socialShare('.social-share', {
+      sites: [
+        
+          'wechat'
+          ,
+          
+        
+          'weibo'
+          ,
+          
+        
+          'douban'
+          ,
+          
+        
+          'twitter'
+          
+        
+      ],
+      wechatQrcodeTitle: "分享到微信朋友圈",
+      wechatQrcodeHelper: '<p>扫码后点击右上角</p><p>将本文分享至朋友圈</p>'
+    });
+  </script>
+
+  
+
+  <script src="/assets/js/prism.js"></script>
+  <script src="/assets/js/index.min.js"></script>
+</body>
+
+</html>
