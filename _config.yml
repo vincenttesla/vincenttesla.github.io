@@ -1,7 +1,7 @@
 # Site settings 配置站点
 title: 'nico的博客'
 description: 'welcome!'
-keyword: 'nico,nico的博客,前端,javascript,软件测试,随笔,故事'
+keyword: 'nico,nico的博客,前端,javascript,软件测试,程序分析,随笔,故事'
 url: 'http://nico.maxwellchain.com' # your host
 
 # if you don't need baseurl, you should leave this value blank.
@@ -19,7 +19,7 @@ footer:
 # Author 配置博主信息
 author: 'nico'
 nickname: '东帝地'
-bio: 'UCASer，热衷记录'
+bio: '文科生，前端，程序分析，UCAS'
 avatar: '/assets/img/nico.png'
 
 # Search
@@ -29,9 +29,18 @@ search: true
 nightMode: true
 
 # Comments 评论功能
+
+gitalk:
+    enable: true
+    owner: nico
+    repo: vincenttesla.github.io
+    clientID: be68b43f6a29d499e671
+    clientSecret: 6273e32148c2fc6ec5a477d08be02ddfb21d2c94
+    admin: nico
+
 comments:
   disqus: false
-  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+  # disqus_url: 'https://liaokeyu.disqus.com/embed.js'
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
